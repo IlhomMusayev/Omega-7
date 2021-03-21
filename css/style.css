@@ -424,6 +424,9 @@ footer{
     .container{
         width: 920px;
     }
+    .main-header-text{
+        padding: 50px 0;
+    }
     .main-header-text h1{
         font-size: 45px;
     }
@@ -457,6 +460,7 @@ footer{
         margin-left: 0;
     }
     .content-section-2 .content-text{
+        padding: 30px 0;
         width: 100%;
         padding-left: 0;
         text-align: center;
@@ -509,6 +513,7 @@ footer{
         width: 100%;
     }
     .content-text{
+        padding: 30px 0;
         width: 100%;
         text-align: center;
         order: 2;
@@ -552,6 +557,13 @@ footer{
         padding: 20px 0;
         justify-content: space-between;
     }
+    .footer-bottom{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-sec{
+        padding: 20px 0;
+    }
 }
 @media(max-width: 620px){
     .container{
@@ -562,6 +574,9 @@ footer{
         font-size: 35px;
     }
     .content-text h1{
+        font-size: 35px;
+    }
+    .content-title h1 {
         font-size: 35px;
     }
     .email-section {
